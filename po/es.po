@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xcsoar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-15 23:14+0200\n"
-"PO-Revision-Date: 2020-05-02 00:41-0300\n"
+"PO-Revision-Date: 2020-05-02 21:54-0300\n"
 "Last-Translator: Sergio Solfa <ssolfa@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: es\n"
@@ -4573,24 +4573,20 @@ msgid "Serial"
 msgstr "Número de serie"
 
 #: src/Dialogs/Device/LX/V7ConfigWidget.cpp:87
-#, fuzzy
 msgid "GPS baud rate"
-msgstr "Velocidad de transmisión del GPS"
+msgstr "Velocidad de transmisión GPS"
 
 #: src/Dialogs/Device/LX/V7ConfigWidget.cpp:88
-#, fuzzy
 msgid "PDA baud rate"
-msgstr "Velocidad de transferencia con el PDA"
+msgstr "Velocidad de transmisión PDA"
 
 #: src/Dialogs/Device/LX/NanoConfigWidget.cpp:97
-#, fuzzy
 msgid "Auto off"
 msgstr "Apagado automático"
 
 #: src/Dialogs/Device/LX/NanoConfigWidget.cpp:100
-#, fuzzy
 msgid "Auto finish flight"
-msgstr "Finalizar el vuelo automaticamente"
+msgstr "Finalizar vuelo automáticamente"
 
 #: src/Dialogs/Device/LX/NanoConfigWidget.cpp:103
 #, fuzzy
@@ -4598,32 +4594,26 @@ msgid "Always run"
 msgstr "Siempre encendido"
 
 #: src/Dialogs/Device/LX/NanoConfigWidget.cpp:106
-#, fuzzy
 msgid "Enable NMEA"
 msgstr "Habilitar NMEA"
 
 #: src/Dialogs/Device/LX/NanoConfigWidget.cpp:109
-#, fuzzy
 msgid "Recording interval"
-msgstr "Intervalo de grabacion"
+msgstr "Intervalo de grabación"
 
 #: src/Dialogs/Device/Vega/VegaConfigurationDialog.cpp:124
-#, fuzzy
 msgid "Demo"
 msgstr "Demo"
 
 #: src/Dialogs/Device/Vega/VegaConfigurationDialog.cpp:168
-#, fuzzy
 msgid "Set new audio scheme?  Old values will be lost."
-msgstr "¿Establecer nuevo esquema de audio? Se perderán los viejos valores."
+msgstr "¿Establecer nuevo esquema de audio? Se perderán los antiguos valores."
 
 #: src/Dialogs/Device/Vega/VegaConfigurationDialog.cpp:285
-#, fuzzy
 msgid "Vario Configuration"
-msgstr "Configuración del Vario"
+msgstr "Configuración Vario"
 
 #: src/Dialogs/Device/Vega/VegaDemoDialog.cpp:99
-#, fuzzy
 msgid "TE vario"
 msgstr "TE vario"
 
@@ -4633,205 +4623,198 @@ msgid ""
 "in circling mode to demonstrate the lift tones.  When not in circling mode, "
 "set this to a realistic negative value so speed command tones are produced."
 msgstr ""
+"Esto produce una velocidad vertical bruta falsa para el TE vario. Se puede "
+"usar en modo de viraje para demostrar los tonos de ascenso. Cuando no esté "
+"en modo de viraje, ajústelo a un valor negativo realista para que se "
+"produzcan tonos de comando de velocidad."
 
 #: src/Dialogs/Device/Vega/VegaDemoDialog.cpp:107
 msgid ""
 "This produces a fake airspeed.  It can be used when not in circling mode to "
 "demonstrate the speed command tones."
 msgstr ""
+"Esto produce una velocidad aerodinámica falsa. Se puede usar cuando no está "
+"en modo de viraje para demostrar los tonos del comando de velocidad."
 
 #: src/Dialogs/Device/Vega/VegaDemoDialog.cpp:112
 msgid "This forces the variometer into circling or cruise mode"
-msgstr ""
+msgstr "Esto fuerza al variómetro a circular o en modo crucero"
 
 #: src/Dialogs/Device/Vega/VegaDemoDialog.cpp:126
-#, fuzzy
 msgid "Vario Demo"
 msgstr "Vario Demo"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:36
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Positive"
 msgstr "Positivo"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:37
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Neutral"
 msgstr "Neutral"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:38
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Negative"
 msgstr "Negativo"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:39 Data/Input/default.xci:53
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Landing"
 msgstr "Aterrizaje"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:45
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Up"
-msgstr "Subir"
+msgstr "Arriba"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:46
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Middle"
 msgstr "Medio"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:47
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Down"
-msgstr "Bajar"
+msgstr "Abajo"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:53
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Locked"
 msgstr "Bloqueado"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:54
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Not locked"
-msgstr "No esta bloqueado"
+msgstr "No está bloqueado"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:72
-#, fuzzy
 msgid "Airbrake locked"
 msgstr "Aerofreno bloqueado"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:73
-#, fuzzy
 msgid "Flaps"
 msgstr "Flaps"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:74
-#, fuzzy
 msgid "Gear down"
-msgstr "Treb afuera"
+msgstr "Tren afuera"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:75
-#, fuzzy
 msgid "Acknowledge"
-msgstr "Reconocer"
+msgstr "Recibido"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:76
-#, fuzzy
 msgid "Repeat"
 msgstr "Repetir"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:77
-#, fuzzy
 msgid "Speed command"
 msgstr "Comando de velocidad"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:99
-#, fuzzy
 msgid "Switch"
 msgstr "Cambiar"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:100
-#, fuzzy
 msgid "Vario circling"
-msgstr "Vario circling"
+msgstr "Vario en viraje"
 
 #: src/Dialogs/Device/Vega/SwitchesDialog.cpp:152
-#, fuzzy
 msgid "Switches"
 msgstr "Interruptores"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:118
-#, fuzzy
 msgid "Stealth mode"
 msgstr "Modo oculto"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:119
-#, fuzzy
 msgid "Threshold"
 msgstr "Umbral"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:120
 #: src/Dialogs/Traffic/TeamCodeDialog.cpp:103
-#, fuzzy
 msgid "Range"
 msgstr "Rango"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:123
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Unkown"
 msgstr "Desconocido"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:124
 #: src/Dialogs/Settings/Panels/TrackingConfigPanel.cpp:182
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Glider"
 msgstr "Planeador"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:125
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Tow plane"
-msgstr "Remolque"
+msgstr "Avión de remolque"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:126
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Helicopter"
 msgstr "Helicóptero"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:127
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Parachute"
-msgstr "Paracaidas"
+msgstr "Paracaídas"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:128
 #, no-c-format
 msgid "Drop plane"
-msgstr ""
+msgstr "Avión"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:129
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Hang glider"
-msgstr "Aladelta"
+msgstr "Ala delta"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:130
 #: src/Dialogs/Settings/Panels/TrackingConfigPanel.cpp:183
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Paraglider"
 msgstr "Parapente"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:132
 #: src/Dialogs/Settings/Panels/TrackingConfigPanel.cpp:184
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Powered aircraft"
 msgstr "Avión propulsado"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:133
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Jet aircraft"
-msgstr "Jet aircraft"
+msgstr "Avión Jet"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:135
 #, no-c-format
 msgid "Flying saucer"
-msgstr ""
+msgstr "Plato volador"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:136
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Balloon"
 msgstr "Globo"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:137
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Airship"
 msgstr "Aeronave"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:139
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Unmanned aerial vehicle"
 msgstr "Vehículo aéreo no tripulado"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:141
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Static object"
-msgstr "Objeto estatico"
+msgstr "Objeto estático"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:145
 #: src/Dialogs/Airspace/dlgAirspaceDetails.cpp:74
@@ -4839,47 +4822,42 @@ msgstr "Objeto estatico"
 #: src/Dialogs/Plane/PlaneDetailsDialog.cpp:114
 #: src/Dialogs/Waypoint/dlgWaypointEdit.cpp:89
 #: src/Dialogs/Waypoint/WaypointList.cpp:415
-#, fuzzy
 msgid "Type"
 msgstr "Tipo"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:146
 #: src/Dialogs/Device/Vega/LoggerParameters.hpp:40
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Logger interval"
-msgstr "Intervalo de grabacion"
+msgstr "Intervalo de grabación"
 
 #: src/Dialogs/Device/FLARM/ConfigWidget.cpp:148
 msgid "No tracking mode"
-msgstr ""
+msgstr "Modo sin seguimiento"
 
 #: src/Dialogs/MapItemListDialog.cpp:175 src/Dialogs/dlgAnalysis.cpp:479
 #: src/Dialogs/dlgAnalysis.cpp:523 src/Dialogs/dlgAnalysis.cpp:532
 #: src/Dialogs/dlgAnalysis.cpp:541
-#, fuzzy
 msgid "Settings"
 msgstr "Ajustes"
 
 #: src/Dialogs/MapItemListDialog.cpp:176
 #: src/Dialogs/Task/AlternatesListDialog.cpp:109
-#, fuzzy
 msgid "Goto"
-msgstr "Ir a"
+msgstr "GoTo"
 
 #: src/Dialogs/MapItemListDialog.cpp:177
 #: src/Dialogs/Airspace/dlgAirspaceDetails.cpp:116
-#, fuzzy
 msgid "Ack Day"
-msgstr "ACK Día"
+msgstr "Recibido (Día)"
 
 #: src/Dialogs/MapItemListSettingsDialog.cpp:34
 msgid "Map Item List Settings"
-msgstr ""
+msgstr "Configuración de la Lista de Elementos del Mapa"
 
 #: src/Dialogs/MapItemListSettingsPanel.cpp:40
-#, fuzzy
 msgid "Show Location row"
-msgstr "Mostrar filas de localizacion"
+msgstr "Mostrar fila de 9"
 
 #: src/Dialogs/MapItemListSettingsPanel.cpp:41
 msgid ""
