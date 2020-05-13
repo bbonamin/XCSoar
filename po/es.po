@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: xcsoar\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-09-15 23:14+0200\n"
-"PO-Revision-Date: 2020-05-02 21:54-0300\n"
+"PO-Revision-Date: 2020-05-13 08:22-0300\n"
 "Last-Translator: Sergio Solfa <ssolfa@gmail.com>\n"
 "Language-Team: Spanish <es@li.org>\n"
 "Language: es\n"
@@ -4857,115 +4857,101 @@ msgstr "Configuración de la Lista de Elementos del Mapa"
 
 #: src/Dialogs/MapItemListSettingsPanel.cpp:40
 msgid "Show Location row"
-msgstr "Mostrar fila de 9"
+msgstr "Mostrar fila de ubicación"
 
 #: src/Dialogs/MapItemListSettingsPanel.cpp:41
 msgid ""
 "If enabled a row at the top will be added showing you the distance and "
 "bearing to the location and the elevation."
 msgstr ""
+"Si se habilita, se agregará una fila en la parte superior que le mostrará la "
+"distancia y la orientación a la ubicación y la elevación."
 
 #: src/Dialogs/MapItemListSettingsPanel.cpp:45
-#, fuzzy
 msgid "Show Arrival Altitude"
-msgstr "Mostrar altitud de arrivo"
+msgstr "Mostrar Altitud de Llegada"
 
 #: src/Dialogs/MapItemListSettingsPanel.cpp:46
-#, fuzzy
 msgid ""
 "If enabled a row at the top will be added showing you the arrival altitude "
 "at the location."
 msgstr ""
-"Al habilitarse, una columna en la parte superior sera añadida mostrando la "
-"altura de llegada en la ubicacion."
+"Si se habilita, se agregará una fila en la parte superior que le mostrará la "
+"altitud de llegada a la ubicación."
 
 #: src/Dialogs/ColorListDialog.cpp:74
-#, fuzzy
 msgid "Select Color"
-msgstr "Seleccionar Color"
+msgstr "Seleccionar el Color"
 
 #: src/Dialogs/Airspace/dlgAirspace.cpp:120
 #: src/Dialogs/Airspace/dlgAirspace.cpp:121 Data/Input/default.xci:436
 #: Data/Input/default.xci:484 Data/Input/default.xci:885
-#, fuzzy
 msgid "Display"
 msgstr "Pantalla"
 
 #: src/Dialogs/Airspace/dlgAirspace.cpp:124
 #: src/Dialogs/Airspace/dlgAirspace.cpp:125
-#, fuzzy
 msgid "Warn"
-msgstr "Advertencia"
+msgstr "Aviso"
 
 #: src/Dialogs/Airspace/dlgAirspace.cpp:171
 #: src/Dialogs/Settings/dlgConfiguration.cpp:103
 #: src/Dialogs/dlgAnalysis.cpp:575
 #: src/Dialogs/Settings/Panels/RouteConfigPanel.cpp:106
 #: Data/Input/default.xci:521
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Airspace"
-msgstr "Espacio aéreo"
+msgstr "Espacio Aéreo"
 
 #: src/Dialogs/Airspace/dlgAirspacePatterns.cpp:65
-#, fuzzy
 msgid "Select Pattern"
-msgstr "Seleccionar patrón"
+msgstr "Seleccionar Patrón"
 
 #: src/Dialogs/Airspace/dlgAirspaceDetails.cpp:72
-#, fuzzy
 msgid "Radio"
 msgstr "Radio"
 
 #: src/Dialogs/Airspace/dlgAirspaceDetails.cpp:77
-#, fuzzy
 msgid "Top"
-msgstr "Superior"
+msgstr "Parte Superior"
 
 #: src/Dialogs/Airspace/dlgAirspaceDetails.cpp:80
-#, fuzzy
 msgid "Base"
 msgstr "Base"
 
 #: src/Dialogs/Airspace/dlgAirspaceDetails.cpp:110
-#, fuzzy
 msgid "Airspace Details"
 msgstr "Detalles del Espacio Aéreo"
 
 #: src/Dialogs/Airspace/AirspaceList.cpp:321
 #: src/Dialogs/Waypoint/WaypointList.cpp:455
-#, fuzzy
 msgid "No Match!"
-msgstr "No hay resultados!"
+msgstr "¡Sin resultados!"
 
 #: src/Dialogs/Airspace/AirspaceList.cpp:344
-#, fuzzy
 msgid "Heading"
-msgstr "Título"
+msgstr "Orientación"
 
 #: src/Dialogs/Airspace/AirspaceList.cpp:438
 #: src/Dialogs/Settings/dlgConfigInfoboxes.cpp:252
 #: src/Dialogs/Plane/PlanePolarDialog.cpp:134
 #: src/Dialogs/Waypoint/dlgWaypointEdit.cpp:79
 #: src/Dialogs/Waypoint/WaypointList.cpp:412
-#, fuzzy
 msgid "Name"
 msgstr "Nombre"
 
 #: src/Dialogs/Airspace/AirspaceList.cpp:471
-#, fuzzy
 msgid "Select Airspace"
 msgstr "Seleccionar Espacio Aéreo"
 
 #: src/Dialogs/Airspace/AirspaceCRendererSettingsDialog.cpp:35
-#, fuzzy
 msgid "Airspace Renderer Settings"
-msgstr "Ajustes del Renderizado de Espacio Aéreo"
+msgstr "Ajustes del renderizador del espacio aéreo"
 
 #. Add controls
 #: src/Dialogs/Airspace/AirspaceCRendererSettingsPanel.cpp:76
-#, fuzzy
 msgid "Change Border Color"
-msgstr "Cambiar el color del borde"
+msgstr "Cambiar el Color del Borde"
 
 #: src/Dialogs/Airspace/AirspaceCRendererSettingsPanel.cpp:77
 #, fuzzy
@@ -4973,181 +4959,162 @@ msgid "Change Fill Color"
 msgstr "Cambiar color de relleno"
 
 #: src/Dialogs/Airspace/AirspaceCRendererSettingsPanel.cpp:84
-#, fuzzy
 msgid "Change Fill Brush"
-msgstr "Cambiar paleta de relleno"
+msgstr "Cambiar Paleta de Relleno"
 
 #: src/Dialogs/Airspace/AirspaceCRendererSettingsPanel.cpp:93
-#, fuzzy
 msgid "Border Width"
-msgstr "Ancho del borde"
+msgstr "Ancho del Border"
 
 #: src/Dialogs/Airspace/AirspaceCRendererSettingsPanel.cpp:94
-#, fuzzy
 msgid ""
 "The width of the border drawn around each airspace. Set this value to zero "
 "to hide the border."
-msgstr "El ancho del borde de cada espacio aereo. Cero para ocultar el borde."
+msgstr ""
+"El ancho del borde dibujado alrededor de cada espacio aéreo. Establezca este "
+"valor en cero para ocultar el borde."
 
 #: src/Dialogs/Airspace/AirspaceCRendererSettingsPanel.cpp:99
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Filled"
-msgstr "Relleno"
+msgstr "Completo"
 
 #: src/Dialogs/Airspace/AirspaceCRendererSettingsPanel.cpp:100
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Only padding"
-msgstr "Solo relleno"
+msgstr "Bordeado"
 
 #: src/Dialogs/Airspace/AirspaceCRendererSettingsPanel.cpp:101
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Not filled"
 msgstr "Sin relleno"
 
 #: src/Dialogs/Airspace/AirspaceCRendererSettingsPanel.cpp:105
-#, fuzzy
 msgid "Fill Mode"
-msgstr "Modo de relleno"
+msgstr "Modo de Relleno"
 
 #: src/Dialogs/Airspace/AirspaceCRendererSettingsPanel.cpp:106
-#, fuzzy
 msgid "Defines how the airspace is filled with the configured color."
 msgstr "Define cómo se llena el espacio aéreo con el color configurado."
 
 #: src/Dialogs/Airspace/dlgAirspaceWarnings.cpp:105
 #: src/Monitor/AirspaceWarningMonitor.cpp:80
-#, fuzzy
 msgid "ACK"
 msgstr "ACK"
 
 #: src/Dialogs/Airspace/dlgAirspaceWarnings.cpp:106
 #: src/Monitor/AirspaceWarningMonitor.cpp:81
-#, fuzzy
 msgid "ACK Day"
 msgstr "ACK Día"
 
 #: src/Dialogs/Airspace/dlgAirspaceWarnings.cpp:325
-#, fuzzy
 msgid "No Warnings"
-msgstr "Sin Advertencias"
+msgstr "Sin Avisos"
 
 #: src/Dialogs/Airspace/dlgAirspaceWarnings.cpp:549
-#, fuzzy
 msgid "Airspace Warnings"
-msgstr "Advertencias del Espacio Aéreo"
+msgstr "Avisos de Espacio Aéreo"
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:53
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "When the algorithm is switched off, the pilot is responsible for setting the "
 "wind estimate."
 msgstr ""
-"Cuando se desactiva el algoritmo, el piloto es responsable de establecer la "
+"Cuando se apaga el algoritmo, el piloto es responsable de establecer la "
 "estimación del viento."
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:55
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Requires only a GPS source."
-msgstr "Requiere sólo un GPS."
+msgstr "Requiere sólo una fuente de GPS."
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:56
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:213
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "ZigZag"
 msgstr "ZigZag"
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:57
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Requires GPS and an intelligent vario with airspeed output."
-msgstr "Requiere GPS y un Vario que muestre la velocidad del viento."
+msgstr ""
+"Requiere GPS y un vario inteligente con salida de velocidad aerodinámica."
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:58
 #: src/Dialogs/Settings/Panels/GlideComputerConfigPanel.cpp:67
 #: src/Dialogs/Settings/Panels/RouteConfigPanel.cpp:108
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Both"
 msgstr "Ambos"
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:59
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Use ZigZag and circling."
 msgstr "Usa ZigZag y virajes."
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:63
-#, fuzzy
 msgid "Auto wind"
-msgstr "Viento Auto"
+msgstr "Viento auto"
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:64
-#, fuzzy
 msgid "This allows switching on or off the automatic wind algorithm."
 msgstr "Esto permite activar o desactivar el algoritmo de viento automático."
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:67
-#, fuzzy
 msgid "External wind"
 msgstr "Viento externo"
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:68
-#, fuzzy
 msgid "Should XCSoar accept wind estimates from other instruments?"
 msgstr "¿Debería aceptar XCSoar estimaciones de viento de otros instrumentos?"
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:72
 #: src/Dialogs/Settings/Panels/SymbolsConfigPanel.cpp:156
-#, fuzzy
 msgid "Trail drift"
-msgstr "Rastro Derivado"
+msgstr "Deriva del rastro"
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:73
 #: src/Dialogs/Settings/Panels/SymbolsConfigPanel.cpp:157
-#, fuzzy
 msgid ""
 "Determines whether the snail trail is drifted with the wind when displayed "
 "in circling mode. Switched Off, the snail trail stays uncompensated for wind "
 "drift."
 msgstr ""
-"Determina si el rastro se desvía con el viento en modo de viraje. Apagado, "
-"el rastro permanece sin compensación por la deriva del viento."
+"Determina si el rastro se desvía con el viento cuando se muestra en modo de "
+"viraje. Apagado, el rastro permanece sin compensación por la deriva del "
+"viento."
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:83
-#, fuzzy
 msgid "Source"
-msgstr "Codigo fuente"
+msgstr "Fuente"
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:86
-#, fuzzy
 msgid "Manual adjustment of wind speed."
 msgstr "Ajuste manual de la velocidad del viento."
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:98
-#, fuzzy
 msgid "Manual adjustment of wind direction."
 msgstr "Ajuste manual de la dirección del viento."
 
 #: src/Dialogs/Settings/WindSettingsPanel.cpp:217
-#, fuzzy
 msgid "External"
 msgstr "Externo"
 
 #: src/Dialogs/Settings/WindSettingsDialog.cpp:35
-#, fuzzy
 msgid "Wind Settings"
 msgstr "Configuración del Viento"
 
 #: src/Dialogs/Settings/dlgBasicSettings.cpp:141
 #: src/Dialogs/Settings/dlgBasicSettings.cpp:367
-#, fuzzy
 msgid "Dump"
 msgstr "Vaciado"
 
 #: src/Dialogs/Settings/dlgBasicSettings.cpp:282
-#, fuzzy
 msgid "Ballast"
 msgstr "Lastre"
 
 #: src/Dialogs/Settings/dlgBasicSettings.cpp:283
-#, fuzzy
 msgid ""
 "Ballast of the glider.  Increase this value if the pilot/cockpit load is "
 "greater than the reference pilot weight of the glide polar (typically "
@@ -5157,16 +5124,15 @@ msgstr ""
 "Lastre del planeador. Aumente este valor si la carga del piloto / cabina es "
 "mayor que el peso piloto de referencia de la polar (generalmente 75 kg). "
 "Presione ENTRAR en este campo para comenzar la cuenta regresiva del volumen "
-"de lastre de acuerdo con la velocidad de descarga especificada en la "
+"de lastre de acuerdo con la velocidad de vaciado especificada en la "
 "configuración."
 
 #: src/Dialogs/Settings/dlgBasicSettings.cpp:295
-#, fuzzy
 msgid "Bugs"
 msgstr "Bichos"
 
 #: src/Dialogs/Settings/dlgBasicSettings.cpp:296
-#, fuzzy, no-c-format
+#, no-c-format
 msgid ""
 "How clean the glider is. Set to 0% for clean, larger numbers as the wings "
 "pick up bugs or gets wet.  50% indicates the glider's sink rate is doubled."
@@ -5176,119 +5142,119 @@ msgstr ""
 "la tasa de hundimiento del planeador se duplica."
 
 #: src/Dialogs/Settings/dlgBasicSettings.cpp:320
-#, fuzzy
 msgid "Max. temp."
-msgstr "Temp. max."
+msgstr "Temp. máx."
 
 #: src/Dialogs/Settings/dlgBasicSettings.cpp:321
 msgid ""
 "Set to forecast ground temperature.  Used by convection estimator "
 "(temperature trace page of Analysis dialog)"
 msgstr ""
+"Establezca el pronóstico de temperatura en el suelo. Utilizado por el "
+"estimador de convección (página de seguimiento de temperatura en Análisis)"
 
 #: src/Dialogs/Settings/dlgBasicSettings.cpp:361
-#, fuzzy
 msgid "Flight Setup"
-msgstr "Config. Vuelo"
+msgstr "Ajustes de Vuelo"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:94
 #: src/Dialogs/Settings/dlgConfiguration.cpp:160
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Site Files"
-msgstr "Archivos del sitio"
+msgstr "Archivos"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:99
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Orientation"
 msgstr "Orientación"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:100
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Elements"
 msgstr "Elementos"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:108
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Safety Factors"
 msgstr "Factores de Seguridad"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:109
 #: src/Dialogs/Settings/dlgConfiguration.cpp:162
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Glide Computer"
-msgstr "Computadora de Planeo"
+msgstr "Computadora Vuelo"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:111
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Route"
 msgstr "Ruta"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:112
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Scoring"
 msgstr "Puntaje"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:117
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "FLARM, Other"
-msgstr "FLARM, Otro"
+msgstr "FLARM, Otros"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:120
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Audio Vario"
-msgstr "Sonido del Vario"
+msgstr "Audio Vario"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:126
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Task Rules"
-msgstr "Reglas de Tarea"
+msgstr "Reglas de la Tarea"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:127
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Turnpoint Types"
-msgstr "Tipos de WP"
+msgstr "Tipos de Puntos de Viraje"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:132
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Language, Input"
 msgstr "Idioma, Entrada"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:133
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Screen Layout"
-msgstr "Diseño de la pantalla"
+msgstr "Diseño de Pantalla"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:134
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Pages"
 msgstr "Páginas"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:135
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "InfoBox Sets"
-msgstr "Ajuste de las InfoBox"
+msgstr "Conjuntos de InfoBox"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:140
 #: src/Dialogs/StatusPanels/SystemStatusPanel.cpp:134
 #: Data/Input/default.xci:631 Data/Input/default.xci:1128
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Logger"
 msgstr "Registrador"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:147
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Tracking"
 msgstr "Seguimiento"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:154
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Audio"
 msgstr "Audio"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:161
-#, fuzzy, no-c-format
+#, no-c-format
 msgid "Map Display"
-msgstr "Despliegue de Mapa"
+msgstr "Mapa"
 
 #: src/Dialogs/Settings/dlgConfiguration.cpp:163
 #, fuzzy, no-c-format
